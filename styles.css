@@ -1,0 +1,25 @@
+* {
+    font-family: Arial;
+}
+
+form {
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    background-color: #93e9be;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+.warning {
+    color: red;
+    font-size: small;
+}
